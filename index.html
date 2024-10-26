@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./styles.css" /> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="nav-one">
+        <div class="logo">Godwin Junior</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#mywork">My work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="nav-two">
+        <div class="logo">Godwin Junior</div>
+            <div class="menu">
+                <div class="icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#mywork" onclick="toggleMenu()">My work</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="pic-container">
+            <img class="picture1" src="./picture.jpeg" alt="profile picture">
+        </div>
+        <div class="section-text">
+            <p class="section-text1">Hi, I'm</p>
+            <h1 class="title">Godwin Junior Ekebuisi</h1>
+            <p class="section-text1">A Web Developer</p>
+            <div class="btn-container">
+                <a href="#contact">
+                    <button class="btn">Contact me</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+    <h1 class="title">About me.</h1>
+    <div class="about">
+        <div class="about-item pic-container2">
+            <div class="pic-container2">
+            <img class="picture2" src="picture2.jpg" alt="profile picture" class="about-pic">
+            </div>
+        </div>
+        <div class="about-item details-container1">
+            <p class="about-text">My name is <strong>Godwin Junior Ekebuisi</strong>, 
+                a freelance front end developer based in South Yorkshire.  
+                My skills include:</p>
+            <div class="skills">
+                <p>HTML/CSS</p>
+                <div class="progress-bar">
+                    <div class="htmlcss"><span>90%</span></div>
+                </div>
+                <p>JavaScript/jQuery</p>
+                <div class="progress-bar">
+                    <div class="java"><span>65%</span></div>
+                </div>
+                <p>Node.js</p>
+                <div class="progress-bar">
+                    <div class="node"><span>60%</span></div>
+                </div>
+                <p>React</p>
+                <div class="progress-bar">
+                    <div class="react"><span>68%</span></div>
+                </div>
+            </div>   
+            </div>
+    </div>
+    </section>
+    <section id="mywork">
+        <h1 class="title">My Work.</h1>
+        <div class="work">
+        <div class="details-container style-container">
+        <div class="article-container">
+            <a href="http://127.0.0.1:3000/Web%20development%20projects/Drum%20Kit%20Starting%20Files/index.html">
+            <img src="./Drumkit.png" class="img-fluid" alt="Drum kit"></a> 
+        </div>
+            <h2 class="project-title">Drumkit</h2>
+            <div class="btn-container">
+                <button class="btn" onclick="location.href='https://github.com/'"> Github</button>
+            </div>
+        </div>
+        <div class="details-container style-container">
+            <div class="article-container">
+                <a href="http://127.0.0.1:3000/Web%20development%20projects/11.3%20TinDog%20Project/index.html">
+                <img src="./Tindog.png" class="img-fluid" alt="tindog project"></a>
+            </div>
+                <h2 class="project-title">Tindog</h2>
+                <div class="btn-container">
+                    <button class="btn" onclick="location.href='https://github.com/'"> Github</button>
+                </div>
+            </div>
+            <div class="details-container style-container">
+                <div class="article-container">
+                    <a href="http://127.0.0.1:3000/Web development projects/Simon Game Challenge Completed/index.html">
+                        <img src="./Simon.png" class="img-fluid" alt="Simon game"></a> 
+                </div>
+                    <h2 class="project-title">Simon Game </h2>
+                    <div class="btn-container">
+                        <button class="btn" onclick="location.href='https://github.com/'"> Github</button>
+                    </div>
+                </div>
+            
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="title">Contact.</h1>
+        <div class="contact-details-container">
+            <div class="contact-info-container">
+                <img src="./bx-envelope.svg" alt="Email icon" class="contact-icon"/>
+                <p><a href=mailto:mrgodwin88@hotmail.co.uk>mrgodwin88@hotmail.co.uk</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./bxl-facebook-circle.svg" alt="Email icon" class="contact-icon"/>
+                <p><a href="https://www.facebook.com">Facebook</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="nav-final">
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#mywork">My work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="copyright">Copyright <span><img src="./bx-copyright.svg" alt="copyright symbol" class="copyright"/></span> 2024 Godwin Junior Ekebuisi. All Rights Reserved.</p>
+    </footer>
+   <script src="index.js"></script>
+</body>
+</html>

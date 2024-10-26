@@ -1,0 +1,161 @@
+@media(max-width: 600px){
+    #nav-one{
+        display: none;
+    }
+    #nav-two{
+        display: flex;
+    }
+
+    .menu{
+        position: relative;
+        display: inline-block;
+    }
+
+    .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20px;
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .icon span {
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        transition: all 0.3 ease-in-out;}
+
+        .menu-links{
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: white;
+            width: fit-content;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3 ease-in-out;
+        }
+        
+        .menu-links a{
+            display: block;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.5rem;
+            color: black;
+            text-decoration: none;
+            transition: all 0.3 ease-in-out;
+        }
+        
+        .menu-links li{
+            list-style: none;
+        }
+
+        #profile{
+            display: block;
+            margin-bottom: 50px;
+        }
+
+        .pic-container{
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 2rem;
+            margin-top: 30px;
+        }
+
+        .section-text1 {
+            display: block;
+            font-size: 20px;
+        }
+
+        .title{
+            margin-top: px;
+        }
+
+        .about{
+            display: block;
+        }
+
+        .title1{
+            display: none;
+        }
+
+        .title2{
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            font-size: 3rem;
+            padding: 40px;
+        }
+
+        .pic-container2{
+            margin-bottom: 40px;
+            padding: 0%;
+        }
+
+        .picture2{
+            height: 40%;
+        }
+
+        .details-container1{
+            width: 100%
+        }
+
+        .about-item{
+            display: block;
+            margin-bottom: 0px;  
+        }
+
+        .about-text{
+            font-size: 1rem;
+        }
+        
+        .skills{
+            margin-bottom: 100px;
+
+        }
+
+        .work{
+            display: block;
+        }
+
+        .style-container{
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn-container{
+            margin-bottom: 20px;
+        }
+
+        #contact{
+            margin-top: 120px;
+            
+           }
+
+           .contact-details-container{
+            flex-direction: column;
+           }
+       
+           .nav-links{
+            background-color: white;
+            flex-direction: column;
+             gap: 0.5rem;
+             text-align: center;
+        }
+
+        .nav-final{
+            background-color: white;
+        }
+
+           .copyright{
+            font-size: 1rem;
+            margin-top: 20px;
+           }
+        
+    }
+
+  
+
+    
